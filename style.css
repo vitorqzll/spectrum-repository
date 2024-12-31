@@ -39,6 +39,8 @@ header h1 {
     color: #800080;
     border: 2px solid #800080;
     padding: 1px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .header input::placeholder {
@@ -59,6 +61,8 @@ header h1 {
     width: 40px;
     height: auto;
     cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .section-list {
