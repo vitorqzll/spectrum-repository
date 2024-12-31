@@ -93,7 +93,7 @@ header h1 {
   
 .item.selected {
     background-color: rgb(200, 0, 255);
-    box-shadow: 0 0 3px rgba(200, 0, 255, 1);
+    box-shadow: 1px 1px 3px rgba(200, 0, 255, 1);
     transition: 0.3s ease;
 }
 
