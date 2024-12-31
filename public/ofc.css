@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Jaro:opsz@6..72&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    overflow: hidden;
+}
+
+body {
+    max-width: 320px;
+    margin: 0 auto;
+    height: 480px;
+    border: 2px solid #800080;
+    background-color: #F8F8F8;
+    margin-top: 125px;
+    font-family: 'Poppins';
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 320px;
+    gap: 15px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.spacer {
+    height: 30px;
+}
+
+header h1 {
+    color: #800080;
+    margin-top: 30px;
+}
+
+.header input {
+    all: unset;
+    color: #800080;
+    border: 2px solid #800080;
+    padding: 1px 20px;
+}
+
+.header input::placeholder {
+    all: unset;
+    color: #800080;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 320px;
+    height: 40px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.header img {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.section-list {
+    display: flex;
+    position: fixed;
+    width: 320px;
+    height: auto;
+    border-top: 2px solid #800080;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+}
+
+.section-list img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.item {
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 80px;
+    height: 45px;
+    overflow: hidden;
+}
+  
+.item.selected {
+    background-color: rgb(200, 0, 255);
+    box-shadow: 0 0 3px rgba(200, 0, 255, 1);
+    transition: 0.3s ease;
+}
+
+.games-list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 10px;
+    justify-content: space-evenly;
+    width: 320px;
+    height: 110px;
+    margin-top: -10px;
+}
+
+.game-block {
+    overflow: hidden;
+    border: 3px solid #800080;
+    width: 70px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.game-block img {
+    width: 70px;
+    height: 70px;
+}
+
+h3 {
+    padding-top: 0.1px;
+    color: #800080;
+    padding-left: 8px;
+    height: 30px;
+}
+
+.conteiner {
+    overflow: hidden;
+    width: 320px;
+    height: 335px;
+}
+
+h6 {
+    font-size: 10px;
+    margin-top: -5px;
+    color: #800080;
+}
+
+.status {
+    display: flex;
+    gap: 1px;
+    width: 80px;
+    height: 20px;
+    margin-top: -25px;
+    align-items: center;
+    text-align: center;
+}
+
+.status p {
+    font-size: 6px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.status img {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
