@@ -89,6 +89,7 @@ header h1 {
     width: 80px;
     height: 45px;
     overflow: hidden;
+    margin-top: 0.5px;
 }
   
 .item.selected {
